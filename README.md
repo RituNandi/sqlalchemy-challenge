@@ -1,5 +1,5 @@
 # sqlalchemy-challenge
-This project is to help with trip planning and climate analysis about the area for a long holiday vacation in Honolulu, Hawaii.
+This assignment is to help with trip planning and climate analysis about the area for a long holiday vacation in Honolulu, Hawaii.
 
 The SurfsUp directory contains climate.ipynb Jupyter Notebook, the app.py Python script, and a Resources folder which contains the hawaii.sqlite database, hawaii_measurements.csv and hawaii_stations.csv.
 
