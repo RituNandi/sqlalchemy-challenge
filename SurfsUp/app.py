@@ -42,8 +42,8 @@ def date_prev_year():
     # Define the most recent date in the Measurement dataset
     # Then use the most recent date to calculate the date one year from the last date
     most_recent_date = session.query(Measurement.date).order_by(Measurement.date.desc()).first()[0]
-    first_date = dt.datetime.strptime(most_recent_date, "%Y-%m-%d") - dt.timedelta(days=365)
-
+    first_date = dt.date(2017, 8, 23) - dt.timedelta(days=365)
+        
     # Return the date
     return(first_date)
 
